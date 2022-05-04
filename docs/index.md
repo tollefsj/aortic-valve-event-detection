@@ -14,3 +14,11 @@ to the America Society of Echocardiography guidelines [1].
 
 **Aortic Valve (AV)**: The aortic valve can be measured from either Apical 5 Chamber (A5C) or Apical Long Axis (APLAX). 
 There are several measurements in the aortic valve region:
+
+
+### Table
+
+
+
+
+
