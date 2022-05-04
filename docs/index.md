@@ -18,7 +18,7 @@ There are several measurements in the aortic valve region:
 
 ### Table
 
-
+![Example Workflow](./images/ablation_studies.png)
 
 
 
