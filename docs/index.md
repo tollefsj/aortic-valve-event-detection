@@ -1,6 +1,4 @@
 
-## Article
-
 The article is sent for publication in the Journal of Biomedical and Healthcare Bioinformatics.
 
 <!The article was published in the Journal of Biomedical and Healthcare Bioinformatics and is available 
@@ -9,7 +7,7 @@ The article is sent for publication in the Journal of Biomedical and Healthcare 
 ## Supplementary Material
 
 
-### Appendix A: Measurement Type Descriptions
+### Appendix A: Ablation study
 
 A detailed description of all the Doppler measurement types referenced in the article is provided below. For full 
 information on the relevant measurements as well as the referenced echocardiography (echo) views the reader is referred 
@@ -24,4 +22,7 @@ There are several measurements in the aortic valve region:
 ![Example Workflow](./images/ablation_studies.png)
 
 
+### Appendix B: Data set
+
+The data ...
 
