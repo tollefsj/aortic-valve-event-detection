@@ -1,5 +1,5 @@
-hei
-## Automatic Detection of Aortic Valve Events Using Deep Neural Networks on Cardiac Signals from Epicardially Placed Accelerometer
+
+## Article
 
 The article was published in the Journal of Biomedical and Healthcare Bioinformatics and is available 
 [online](https://ieeexplore.ieee.org/document/9216477).
