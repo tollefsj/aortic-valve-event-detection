@@ -1,18 +1,21 @@
 
 The article is sent for publication in the Journal of Biomedical and Health Informatics.
 
-""""""The article was published in the Journal of Biomedical and Health Informatics and is available 
-[online](https://ieeexplore.ieee.org/document/9216477).""""""
+""""""
+The article was published in the Journal of Biomedical and Health Informatics and is available 
+[online](https://ieeexplore.ieee.org/document/9216477).
+""""""
 
 ## Supplementary Material
 
 
 ### Appendix A: Ablation study
 
-The importance of different hyper-parameter and the network structure was evalaution though an ablation study. 
+The importance of different hyper-parameters and the network structure were evaluation though an ablation study. To achive a reliable result for each configuration, we performed nested cross-validation 50 times. Training each configuration multiple times was specially important as we found a significant change in the performance from run-to-run. 
 
-seed
-hiratcical structure CNN->RNN->ATT
+The output from the attention module (ATT) yielded no imporvment over the output from the RNN module. However, both showed greate improvment over the output from the CNN module. Larger model complexity through increased value of $k$ showed slight positive trend. The trend was consistant for each output stage (CNN, RNN, ATT), normalization layer, pooling layer and localization head. A data driven localization head show 
+ 
+
 
 ![Example Workflow](./images/ablation_studies.png)
 ![Example Workflow](./images/ablation_studies_large.png)
