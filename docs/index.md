@@ -1,8 +1,10 @@
 
 ## Article
 
-The article was published in the Journal of Biomedical and Healthcare Bioinformatics and is available 
-[online](https://ieeexplore.ieee.org/document/9216477).
+The article is sent for publication in the Journal of Biomedical and Healthcare Bioinformatics.
+
+<"The article was published in the Journal of Biomedical and Healthcare Bioinformatics and is available 
+[online](https://ieeexplore.ieee.org/document/9216477).>
 
 ## Supplementary Material
 
