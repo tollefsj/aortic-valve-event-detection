@@ -1,8 +1,8 @@
 
 The article is sent for publication in the Journal of Biomedical and Healthcare Bioinformatics.
 
-<!The article was published in the Journal of Biomedical and Healthcare Bioinformatics and is available 
-[online](https://ieeexplore.ieee.org/document/9216477).>
+""""""The article was published in the Journal of Biomedical and Healthcare Bioinformatics and is available 
+[online](https://ieeexplore.ieee.org/document/9216477).""""""
 
 ## Supplementary Material
 
@@ -21,6 +21,7 @@ There are several measurements in the aortic valve region:
 
 ![Example Workflow](./images/ablation_studies.png)
 
+*Table. C.1 The Ablation study*
 
 ### Appendix B: Data set
 
