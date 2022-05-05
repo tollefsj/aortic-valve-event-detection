@@ -17,14 +17,17 @@ The output from the attention module (ATT) yielded no imporvment over the output
 
 ![Example Workflow](./images/ablation_studies_large.png)
 
-*Table. B.1 The table shows the sensitivity of different hyper parameters. The results are calculated by averaging both the species: canines and porcines, and both the events: AVO and AVC. The values are given as &mu; &plusmn; &Delta;&mu;, where &mu; is the mean and &Delta;&mu; the uncertainty of the mean from 50 nested cross-validation runs with different seeds. BN: Batch normalization, GN: Group normalization, lr: Learning rate, MBP: Max Blur Pool, \*: Linear activation (no sigmoid). The definition of the average error is given in Equation [8]*
+*Table B.1: The table shows the sensitivity of different hyper parameters. The results are calculated by averaging both the species: canines and porcines, and both the events: AVO and AVC. The values are given as &mu; &plusmn; &Delta;&mu;, where &mu; is the mean and &Delta;&mu; the uncertainty of the mean from 50 nested cross-validation runs with different seeds. BN: Batch normalization, GN: Group normalization, lr: Learning rate, MBP: Max Blur Pool, \*: Linear activation (no sigmoid). The definition of the average error is given in Equation [8]*
 
 
 ### Appendix B: Comparing results on canine and porcine data sets
 
-We evaluated the similarity between the canine and porcine data sets by testing on the data set the network was not train on. The resutls are shown in Table B.2.
+We evaluated the similarity between the canine and porcine data sets by testing on the data set the network was not train on. The resutls are shown in Table B.2. We can draw the following conclusions:
+
+* Item 1
+* Item 2
 
 ![Example Workflow](./images/result_species.png)
-*Table. B.2*
+*Table B.2: The hyper-parameter configurations C2 and C43 can be found in Table B.1. The values colored red indicate results on a species the network was not trained for.*
 
 
