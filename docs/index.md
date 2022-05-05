@@ -12,6 +12,8 @@ The article is sent for publication in the Journal of Biomedical and Health Info
 
 ![Example Workflow](./images/ablation_studies.png)
 
+![Example Workflow](./images/ablation_studies_large.png)
+
 *Table. C.1 The Ablation study*
 
 ### Appendix B: Data set
