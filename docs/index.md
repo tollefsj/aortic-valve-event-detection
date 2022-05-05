@@ -13,7 +13,13 @@ The article was published in the Journal of Biomedical and Health Informatics an
 
 The importance of different hyper-parameters and the network structure were evaluation though an ablation study. To achive a reliable result for each configuration, we performed nested cross-validation 50 times. Training each configuration multiple times was specially important as we found a significant change in the performance from run-to-run. 
 
-The output from the attention module (ATT) yielded no imporvment over the output from the RNN module. However, both showed greate improvment over the output from the CNN module. Larger model complexity through increased value of *k* showed slight positive trend. The trend was consistant for each output stage (CNN, RNN, ATT), normalization layer, pooling layer and localization head. The data driven localization head (&omega;<sub>AVO</sub>, &omega;<sub>AVC</sub>)
+The output from the attention module (ATT) yielded no imporvment over the output from the RNN module. However, both showed greate improvment compared to the output from the CNN module. Larger model complexity through increased value of *k* showed a slight positive trend. The trend was consistant for each output stage (CNN, RNN, ATT), normalization layer, pooling layer and localization head. Including data driven localization heads (&omega;<sub>AVO</sub>, &omega;<sub>AVC</sub>) did not result in superior performance compard to static values (*&omega;<sub>AVO</sub>=0.5, &omega;<sub>AVC</sub>=0.5*)
+
+indicate 
+
+learning rate: C56 and C2
+without sigmoid: C55 and C2
+GN vs BN
  
 
 
