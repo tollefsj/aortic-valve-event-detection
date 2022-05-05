@@ -16,5 +16,6 @@ The article is sent for publication in the Journal of Biomedical and Health Info
 
 ### Appendix B: Data set
 
+![Example Workflow](./images/result_species.png)
 The data ...
 
