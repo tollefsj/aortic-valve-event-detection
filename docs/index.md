@@ -10,8 +10,6 @@ The article is sent for publication in the Journal of Biomedical and Health Info
 ### Appendix A: Ablation study
 
 
-![Example Workflow](./images/ablation_studies.png)
-
 ![Example Workflow](./images/ablation_studies_large.png)
 
 *Table. C.1 The Ablation study*
