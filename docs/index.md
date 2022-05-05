@@ -22,9 +22,9 @@ The output from the attention module (ATT) yielded no imporvment over the output
 
 ### Appendix B: Comparing results on canine and porcine data sets
 
-
+We evaluated the similarity between the canine and porcine data sets by testing on the data set the network was not train on. The resutls are shown in Table B.2.
 
 ![Example Workflow](./images/result_species.png)
 *Table. B.2*
-The data ...
+
 
