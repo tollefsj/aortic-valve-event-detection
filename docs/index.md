@@ -20,14 +20,14 @@ The output from the attention module (ATT) yielded no improvement over the outpu
 
 ![Example Workflow](./images/ablation_studies_large.png)
 
-*Table A.1: The table shows the sensitivity of different hyper parameters. The results are calculated by averaging both the species: canines and porcines, and both the events: AVO and AVC. The values are given as &mu; &plusmn; &Delta;&mu;, where &mu; is the mean and &Delta;&mu; the uncertainty of the mean from 50 nested cross-validation runs with different seeds. BN: Batch normalization, GN: Group normalization, lr: Learning rate, MBP: Max Blur Pool, \*: Linear activation (no sigmoid). The definition of the average error is given in Equation [8]*
+*Table A.1: The table shows the sensitivity of different hyper-parameters. The results are calculated by averaging both the species: canines and porcines, and both the events: AVO and AVC. The values are given as &mu; &plusmn; &Delta;&mu;, where &mu; is the mean and &Delta;&mu; the uncertainty of the mean from 50 nested cross-validation runs with different seeds. BN: Batch normalization, GN: Group normalization, lr: Learning rate, MBP: Max Blur Pool, \*: Linear activation (no sigmoid). The definition of the average error is given in Equation [8]*
 
 
 ### Appendix B: Comparing results on canine and porcine data sets
 
 We trained and tested the network on canines' and porcines' data sets separately to see how that may alter the results. We found that using individual species' data sets for training and testing yielded similar results to using merged data sets, see Table B.1.
 
-An interesting observation is that a network trained on the porcine data set performed surprisingly well while being tested on the canine data set. Though, a network trained on canine data set did not yield similarly good results on the porcine test set, which could be due to less canine data and/or different interventions. The only difference we found in the hyper parameter search in terms of using individual data sets, was that group normalization tends to perform better in canines while batch normalization tends to performs better in porcines.
+An interesting observation is that a network trained on the porcine data set performed surprisingly well while being tested on the canine data set. Though, a network trained on canine data set did not yield similarly good results on the porcine test set, which could be due to less canine data and/or different interventions. The only difference we found in the hyper-parameter search in terms of using individual data sets, was that group normalization tends to perform better in canines while batch normalization tends to performs better in porcines.
 
 ![Example Workflow](./images/result_species.png)
 *Table B.1: The hyper-parameter configurations C2 and C43 can be found in Table A.1. The network was not trained for the species that have results marked in red.*
