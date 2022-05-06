@@ -30,6 +30,5 @@ We trained and tested the network on canines' and porcines' data sets separately
 An interesting observation is that a network trained on the porcine data set performed surprisingly well while being tested on the canine data set. Though, a network trained on canine data set did not yield similarly good results on the porcine test set, which could be due to less canine data and/or different interventions. The only difference we found in the hyper parameter search in terms of using individual data sets, was that group normalization tends to perform better in canines while batch normalization tends to performs better in porcines.
 
 ![Example Workflow](./images/result_species.png)
-*Table B.1: The hyper-parameter configurations C2 and C43 can be found in Table B.1. The values colored red indicate results on a species the network was not trained for.*
-
+*Table B.1: The hyper-parameter configurations C2 and C43 can be found in Table A.1. The network was not trained for the species that have results marked in red.*
 
