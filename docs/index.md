@@ -9,7 +9,7 @@ The article was published in the Journal of Biomedical and Health Informatics an
 ## Supplementary Material
 
 
-### Appendix A: Ablation study
+### Appendix A: Hyper-parameter sensitivity analysis
 
 The importance of different hyper-parameters and the network structure were evaluation though an ablation study. To achive a reliable result for each configuration, we performed nested cross-validation 50 times. Training each configuration multiple times was specially important as we found a significant change in the performance from run-to-run. The need to train multiple networks for each configuration has limited the overall number of hyper-parameter tested. Table B.1 show the configuration evaluated.
 
