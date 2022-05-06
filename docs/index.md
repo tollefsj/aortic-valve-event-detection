@@ -22,10 +22,12 @@ The output from the attention module (ATT) yielded no imporvment over the output
 
 ### Appendix B: Comparing results on canine and porcine data sets
 
-We evaluated the similarity between the canine and porcine data sets by testing on the data set the network was not train on. The resutls are shown in Table B.2. We can draw the following conclusions:
+We evaluated the similarity between the canine and porcine data sets by testing on the data set the network was not train on. The resutls are shown in Table B.2 and we can draw the following conclusions:
 
-* Item 1
-* Item 2
+* Training a single neural network on a mixing of canine and porcine data result in similar perfomance as training individual network for each species.
+* The canine data set include a significant overlap in the waveform in the porcine data set.
+* Best performance on the canine data set is found using group normalization. 
+* Best performance on the porcine data set is found using batch normalization. 
 
 ![Example Workflow](./images/result_species.png)
 *Table B.2: The hyper-parameter configurations C2 and C43 can be found in Table B.1. The values colored red indicate results on a species the network was not trained for.*
